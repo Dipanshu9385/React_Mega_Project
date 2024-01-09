@@ -40,7 +40,7 @@ export class AuthService{
             if (currentAccount) {
                 return currentAccount;
             } else {
-                return null
+                return null;
             }
         } catch (error) {
             throw error;
